@@ -6,7 +6,7 @@ import Favorites from './pages/Favorites';
 import DreamTeam from './pages/DreamTeam';
 import PokeDetails from './pages/PokeDetails';
 import Footer from './components/Footer';
-import './App.css'; // make sure this file exists
+import './App.css'; 
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
