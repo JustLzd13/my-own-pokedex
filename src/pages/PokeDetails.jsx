@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { getPokemonDetails } from '../services/pokeapi';
+import { getPokemonDetails } from '../services/pokeApi';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
