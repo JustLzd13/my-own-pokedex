@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import PokeCard from '../components/PokeCards';
-import { getAllPokemon, getPokemonDetails } from '../services/pokeAPI';
+import { getAllPokemon, getPokemonDetails } from '../services/pokeapi';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
