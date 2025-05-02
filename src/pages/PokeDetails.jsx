@@ -22,7 +22,7 @@ const PokeDetails = () => {
     };
     fetchData();
   }, [id]);
-
+ 
   const handleAddToDreamTeam = () => {
     const storedDreamTeam = JSON.parse(localStorage.getItem('dreamTeam')) || [];
     
